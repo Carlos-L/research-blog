@@ -1,0 +1,27 @@
+{
+  "name": "@carlos-research/site-header",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "site-header",
+    "displayName": "Carlos Research Header",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 1,
+    "defaultEnabled": true,
+    "components": {
+      "SiteHeader": {
+        "displayName": "Site Header",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 1
+      }
+    }
+  }
+}

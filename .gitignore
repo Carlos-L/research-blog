@@ -1,7 +1,17 @@
-.obsidian/workspace.json
-
-.trash/
-
 .DS_Store
-
 Thumbs.db
+node_modules/
+public/
+prof/
+tsconfig.tsbuildinfo
+.quartz-cache/
+.quartz/
+private/
+.replit
+replit.nix
+quartz/cli/tui/dist/
+
+# Keep portable Obsidian settings, but not machine-specific UI state.
+content/.obsidian/workspace.json
+content/.obsidian/workspace-mobile.json
+content/.trash/
