@@ -1,0 +1,27 @@
+{
+  "name": "@carlos-research/daily-heatmap",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "daily-heatmap",
+    "displayName": "Daily Heatmap",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 2,
+    "defaultEnabled": true,
+    "components": {
+      "DailyHeatmap": {
+        "displayName": "Daily Heatmap",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 25
+      }
+    }
+  }
+}

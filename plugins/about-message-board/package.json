@@ -1,0 +1,27 @@
+{
+  "name": "@carlos-research/about-message-board",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "about-message-board",
+    "displayName": "About Message Board",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 3,
+    "defaultEnabled": true,
+    "components": {
+      "AboutMessageBoard": {
+        "displayName": "About Message Board",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 5
+      }
+    }
+  }
+}

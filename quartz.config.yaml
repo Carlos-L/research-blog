@@ -51,6 +51,18 @@ plugins:
       group: site-header
       groupOptions:
         grow: true
+  - source: ./plugins/daily-heatmap
+    enabled: true
+    order: 2
+    layout:
+      position: beforeBody
+      priority: 25
+  - source: ./plugins/about-message-board
+    enabled: true
+    order: 3
+    layout:
+      position: afterBody
+      priority: 5
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
