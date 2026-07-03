@@ -63,6 +63,18 @@ plugins:
     layout:
       position: afterBody
       priority: 5
+  - source: ./plugins/home-recent
+    enabled: true
+    order: 4
+    layout:
+      position: afterBody
+      priority: 1
+  - source: ./plugins/image-lightbox
+    enabled: true
+    order: 5
+    layout:
+      position: afterBody
+      priority: 100
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
@@ -72,6 +84,9 @@ plugins:
         - git
         - filesystem
     order: 10
+  - source: ./plugins/daily-date
+    enabled: true
+    order: 11
   - source: github:quartz-community/syntax-highlighting
     enabled: true
     options:

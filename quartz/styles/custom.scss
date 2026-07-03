@@ -88,7 +88,12 @@ body {
   margin: auto;
 }
 
-.search > .search-container > .search-space > .search-layout[data-preview] .result-card > p.card-description {
+.search
+  > .search-container
+  > .search-space
+  > .search-layout[data-preview]
+  .result-card
+  > p.card-description {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -396,45 +401,26 @@ body[data-slug="index"] .home-intro {
 }
 
 .home-entry {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1.5rem;
-  align-items: start;
-  padding: 1.35rem 0;
-  border-top: 1px solid var(--border-subtle);
+  display: block;
+  padding: 0.62rem 0;
   background: none;
   color: var(--dark);
-}
-
-.home-entry span {
-  display: grid;
-  gap: 0.35rem;
-}
-
-.home-entry strong {
   font-size: 1rem;
   font-weight: 620;
 }
 
-.home-entry small,
-.home-entry time {
-  color: var(--gray);
-  font-size: 0.8rem;
-  font-weight: 400;
-  line-height: 1.55;
-}
-
-.home-entry time {
-  font-family: var(--codeFont);
-  white-space: nowrap;
-}
-
-.home-entry:hover strong {
+.home-entry:hover {
   color: var(--secondary);
 }
 
 body[data-slug="index"] .page-footer {
   width: 100%;
+}
+
+// Quartz inserts a separator before afterBody components. The home hero already
+// provides the section divider, so showing both creates a duplicated rule.
+body[data-slug="index"] article + hr {
+  display: none;
 }
 
 body[data-slug="daily/index"] article,
@@ -458,6 +444,69 @@ body[data-slug="about"] article > .markdown-preview-view {
 
 body[data-slug="daily/index"] .page-listing,
 body[data-slug="notes/index"] .page-listing {
+  width: 100%;
+  max-width: var(--site-max-width);
+  margin: clamp(2.5rem, 5vw, 4rem) auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+body[data-slug="daily/index"] .page-listing > p,
+body[data-slug="notes/index"] .page-listing > p {
+  margin: 0 0 1rem;
+  color: var(--gray);
+  font-family: var(--codeFont);
+  font-size: 0.72rem;
+}
+
+body[data-slug="daily/index"] .page-listing .section-ul,
+body[data-slug="notes/index"] .page-listing .section-ul {
+  padding: 0;
+  list-style: none;
+}
+
+body[data-slug="daily/index"] .page-listing .section-li,
+body[data-slug="notes/index"] .page-listing .section-li {
+  margin: 0;
+  border-top: 1px solid var(--border-subtle);
+}
+
+body[data-slug="daily/index"] .page-listing .section,
+body[data-slug="notes/index"] .page-listing .section {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: baseline;
+  padding: 1.25rem 0;
+}
+
+body[data-slug="daily/index"] .page-listing .meta,
+body[data-slug="notes/index"] .page-listing .meta {
+  margin: 0;
+  color: var(--gray);
+  font-family: var(--codeFont);
+  font-size: 0.76rem;
+}
+
+body[data-slug="daily/index"] .page-listing h3,
+body[data-slug="notes/index"] .page-listing h3 {
+  font-size: 1rem;
+  font-weight: 620;
+}
+
+body[data-slug="daily/index"] .page-listing h3 a,
+body[data-slug="notes/index"] .page-listing h3 a {
+  background: none;
+  color: var(--dark);
+}
+
+body[data-slug="daily/index"] .page-listing h3 a:hover,
+body[data-slug="notes/index"] .page-listing h3 a:hover {
+  color: var(--secondary);
+}
+
+body[data-slug="daily/index"] .page-listing .tags,
+body[data-slug="notes/index"] .page-listing .tags {
   display: none;
 }
 
@@ -521,9 +570,10 @@ body[data-slug="notes/index"] .markdown-preview-view > h1:first-child {
     padding-top: 3.5rem;
   }
 
-  .home-entry {
+  body[data-slug="daily/index"] .page-listing .section,
+  body[data-slug="notes/index"] .page-listing .section {
     grid-template-columns: 1fr;
-    gap: 0.65rem;
+    gap: 0.45rem;
   }
 
   .listing-entry {

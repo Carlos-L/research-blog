@@ -1,0 +1,27 @@
+{
+  "name": "@carlos-research/home-recent",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "home-recent",
+    "displayName": "Home Recent Posts",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 4,
+    "defaultEnabled": true,
+    "components": {
+      "HomeRecent": {
+        "displayName": "Home Recent Posts",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 1
+      }
+    }
+  }
+}

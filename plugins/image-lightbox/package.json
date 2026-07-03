@@ -1,0 +1,27 @@
+{
+  "name": "@carlos-research/image-lightbox",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "image-lightbox",
+    "displayName": "Image Lightbox",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 5,
+    "defaultEnabled": true,
+    "components": {
+      "ImageLightbox": {
+        "displayName": "Image Lightbox",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 100
+      }
+    }
+  }
+}
