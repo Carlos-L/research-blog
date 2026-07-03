@@ -15,4 +15,13 @@ description: 按日期整理的日常进展、实验记录与工作摘要。
     </span>
     <time datetime="2026-07-02">02 Jul 2026</time>
   </a>
+<br>
+  <a class="listing-entry" href="./2026-07-03">
+    <span>
+      <strong>2026-07-03</strong>
+      <small>接收端PD测量</small>
+    </span>
+    <time datetime="2026-07-03">03 Jul 2026</time>
+  </a>
+
 </section>

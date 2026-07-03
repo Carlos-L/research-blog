@@ -23,4 +23,9 @@
 
 ### 参考产品5 KG-BPR
 [KG-BPR系列1.6GHz带放大固定增益平衡光探测模块 - 电光调制器_光电探测器_DFB激光器_EDFA-北京康冠光电器件](http://www.conquer-oc.com/cn/detail-20-127-681.html)
-![[Pasted image 20260702194640.png]]![[Pasted image 20260702200508.png]]
+![[Pasted image 20260702194640.png]]
+
+## 总结
+
+截至当前，适用于CVQKD系统最好的BPD是德国.wieserlabs下的WL-BPD，据了解饱和光功率可以达到十几dbm。国内最好的平替是康冠光电的BPD，饱和光功率只能到1mW。其余饱和光功率逗太小了。
+饱和光功率主要被TIA放大电路限制。
