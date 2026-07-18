@@ -1,4 +1,98 @@
 
+
+### 单篇论文阅读模板
+
+每篇 paper 建议只回答下面 9 个问题。不要一上来逐字读，会被细节淹没。
+
+```markdown
+
+# Paper title
+
+
+## 1. 这篇解决什么问题？
+
+## 2. 它的系统结构是什么？
+
+- Alice:
+
+- Channel:
+
+- Bob:
+
+- DSP:
+
+- Post-processing:
+
+  
+
+## 3. 关键实验参数
+
+- Modulation:
+
+- Baud rate:
+
+- Distance/loss:
+
+- Detector bandwidth:
+
+- LO scheme:
+
+- Pilot design:
+
+- Block size:
+
+- Excess noise:
+
+- Reconciliation efficiency:
+
+- Final key rate:
+
+  
+
+## 4. 安全假设
+
+- Asymptotic or finite-size:
+
+- Composable or not:
+
+- Collective/coherent attacks:
+
+- Trusted noise:
+
+- Parameter estimation:
+
+  
+
+## 5. 最关键的图
+
+- Fig. ?
+
+- Fig. ?
+
+- Fig. ?
+
+  
+
+## 6. 最关键的公式
+
+- Equation ?
+
+- Equation ?
+
+  
+
+## 7. 对我的课题有什么用？
+
+  
+
+## 8. 我不懂/需要追的点
+
+  
+
+## 9. 可以复现或借鉴的实验/DSP步骤
+
+```
+
 ### 1 Long-distance CV-QKD over 100-km fiber with local LO
 https://www.science.org/doi/10.1126/sciadv.adi9474?utm_source=chatgpt.com&__cf_chl_f_tk=IjlP5m9ShfuA3ttgR9qpTgko5fLszrk84dt57CmTteo-1783320286-1.0.1.1-0nDHXIu0sKh5d8IWPTK9kYGW8GUaX.HwKtH89mLcnT4
 
@@ -40,4 +134,13 @@ _Department of Electrical & Computer Engineering, National University of Singapo
 
 硅基片上DM CV QKD
 ![[Pasted image 20260706154607.png]]
-40Gbaud 
+40Gbaud 超高速
+以往的带宽限制因素：TIA寄生电容 PCB电容 封装电容
+
+解决方法：在BHD设计中采用了带有串联电阻的低噪声放大器（LNA）
+
+协议过程： 制备->发送->能量检测->接受检测->离散化->纠错->隐私放大
+
+实验中用到的芯片都是由Advanced Micro Foundry Singapore using heir active silicon-on-insulator (SOI) platform.制作
+
+发射端：外腔激光器，50KHz线宽，硅基Vpi 0.5V（-2V偏压下），信号源：M8195A，射频探针链接。

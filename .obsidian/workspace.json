@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/2026-07-07.md",
+                "file": "content/Daily/2026-07-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-07"
+              "title": "2026-07-14"
+            }
+          },
+          {
+            "id": "730239dded80e2f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Daily/2026-07-14.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-07-14"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,33 +198,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "84568a9d5aa07a25",
+  "active": "730239dded80e2f5",
   "lastOpenFiles": [
-    "content/Daily/2026-07-06.md",
-    "content/Daily/2026-07-08.md",
+    "content/Daily/2026-07-15.md",
+    "content/Daily/2026-07-16.md",
+    "content/Daily/2026-07-17.md",
+    "content/assets/215db37f63ffdcef791c04ade93c8ab0.png",
+    "content/assets/3514aee0a8e6c4b19a243c22f953de51.png",
+    "content/assets/4141125456d30a626bde0ff0ada5874a.png",
+    "content/assets/9f2f932a7d3721827ce6c55ddcaaf012.png",
+    "content/Daily/2026-07-18.md",
+    "content/assets/809a29538d262d5cdb07340c62d3d768.png",
+    "content/assets/e5b9286960d8e0f125553cc6f01af65d.png",
+    "content/assets/b621ab48eb208a9859cf6e0334f4154a.png",
+    "content/assets/a38933a7c3b7dee5086fd7be1aa95c96.png",
+    "content/Daily/2026-07-14.md",
+    "content/Daily/2026-07-13.md",
+    "content/assets/2de3d48458cc0b10025fe9824beca0d1.png",
+    "content/assets/Pasted image 20260718105414.png",
+    "content/Daily/2026-07-12.md",
     "content/Daily/2026-07-10.md",
+    "content/Daily/2026-07-08.md",
+    "content/Daily/index.md",
+    "2026-07-16.md",
+    "content/Notes/CVQKD最近文章调研总结.md",
+    "content/Daily/2026-07-07.md",
+    "content/Daily/2026-07-06.md",
     "content/Daily/2026-07-05.md",
     "content/Daily/2026-07-04.md",
     "content/Daily/2026-07-03.md",
     "content/Daily/2026-07-02.md",
-    "content/Daily/2026-07-07.md",
-    "content/assets/Pasted image 20260710181311.png",
-    "content/assets/Pasted image 20260710181111.png",
-    "content/assets/Pasted image 20260710180310.png",
-    "content/assets/Pasted image 20260710180231.png",
-    "content/assets/Pasted image 20260710180008.png",
-    "content/assets/Pasted image 20260710175917.png",
-    "content/Daily/index.md",
-    "content/Notes/CVQKD最近文章调研总结.md",
-    "content/assets/Pasted image 20260706235041.png",
-    "content/assets/Pasted image 20260706154607.png",
-    "content/assets/Pasted image 20260706145547.png",
-    "content/assets/Pasted image 20260706144914.png",
     "content/About.md",
     "content/index.md",
     "content/Notes/index.md",
     "Untitled",
-    "Untitled.md",
     "content/Notes/商用TIA（BPD）调研.md",
     "Daily/2026-07-02.md",
     "Welcome.md",
