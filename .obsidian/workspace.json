@@ -1,64 +1,41 @@
 {
   "main": {
-    "id": "b572135467336c7a",
+    "id": "583353ab146ed414",
     "type": "split",
     "children": [
       {
-        "id": "093dc12e605c05ea",
+        "id": "568f32adc593213e",
         "type": "tabs",
         "children": [
           {
-            "id": "84568a9d5aa07a25",
+            "id": "59f31ec597414b38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "content/Daily/2026-07-14.md",
-=======
-                "file": "content/Daily/2026-07-10.md",
->>>>>>> Stashed changes
+                "file": "content/Daily/Todo List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "2026-07-14"
-            }
-          },
-          {
-            "id": "730239dded80e2f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Daily/2026-07-14.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-14"
-=======
-              "title": "2026-07-10"
->>>>>>> Stashed changes
+              "title": "Todo List"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fbabdd7ddb1caa73",
+    "id": "7f4b42a310cdaa27",
     "type": "split",
     "children": [
       {
-        "id": "9d5aaae7164ba82d",
+        "id": "466f3eb4beb0cc82",
         "type": "tabs",
         "children": [
           {
-            "id": "fc7a79da0321343b",
+            "id": "d7570beae13ed621",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,7 +48,7 @@
             }
           },
           {
-            "id": "cd75744cd4168cf7",
+            "id": "8a35c7686b0a9f4f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -88,7 +65,7 @@
             }
           },
           {
-            "id": "623fbbb8a7c0dcbb",
+            "id": "e7a624d07b1d6046",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -104,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "7e23945d866ef50f",
+    "id": "cfdb9b5c41cbcefc",
     "type": "split",
     "children": [
       {
-        "id": "923b6d9a5aa00c65",
+        "id": "f37ff6b75b45d79c",
         "type": "tabs",
         "children": [
           {
-            "id": "a7eed05fe49d9a45",
+            "id": "445c6d8aff6ac971",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-07-02.md",
+                "file": "content/Daily/Todo List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-07-02"
+              "title": "Backlinks for Todo List"
             }
           },
           {
-            "id": "d0a8dbd92be3fd67",
+            "id": "d93f826a712fa62c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2026-07-02.md",
+                "file": "content/Daily/Todo List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-07-02"
+              "title": "Outgoing links from Todo List"
             }
           },
           {
-            "id": "7ff85ee63444f42f",
+            "id": "e66df4dc73186e88",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -160,7 +137,7 @@
             }
           },
           {
-            "id": "962db895d311d7d4",
+            "id": "8d31cbbaf3c471a4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -174,18 +151,18 @@
             }
           },
           {
-            "id": "452d4ea777027fe1",
+            "id": "cef0ce6af7949f11",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2026-07-02.md",
+                "file": "content/Daily/Todo List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-07-02"
+              "title": "Outline of Todo List"
             }
           }
         ]
@@ -206,68 +183,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "730239dded80e2f5",
+  "active": "59f31ec597414b38",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "content/Daily/2026-07-15.md",
-    "content/Daily/2026-07-16.md",
-    "content/Daily/2026-07-17.md",
-    "content/Daily/2026-07-18.md",
-    "content/Daily/2026-07-19.md",
-    "content/assets/Pasted image 20260719163834.png",
-    "content/assets/Pasted image 20260719163816.png",
-    "content/assets/Pasted image 20260719163756.png",
-    "content/assets/Pasted image 20260719163559.png",
-    "content/assets/Pasted image 20260719154837.png",
-    "content/assets/Pasted image 20260719154808.png",
-    "content/assets/Pasted image 20260719154738.png",
-    "content/assets/Pasted image 20260719154710.png",
-    "content/Daily/2026-07-14.md",
-    "content/assets/215db37f63ffdcef791c04ade93c8ab0.png",
-    "content/assets/3514aee0a8e6c4b19a243c22f953de51.png",
-    "content/Daily/2026-07-13.md",
-    "content/Daily/2026-07-12.md",
-=======
-    "content/Daily/2026-07-07.md",
-    "content/Daily/2026-07-06.md",
-    "content/Daily/2026-07-08.md",
->>>>>>> Stashed changes
-    "content/Daily/2026-07-10.md",
-    "content/Daily/2026-07-08.md",
-    "content/Daily/index.md",
-    "2026-07-16.md",
-    "content/Notes/CVQKD最近文章调研总结.md",
-    "content/Daily/2026-07-07.md",
-    "content/Daily/2026-07-06.md",
-    "content/Daily/2026-07-05.md",
+    "public/index-og-image.webp",
+    "public/daily/index-og-image.webp",
+    "public/daily/todo-list-og-image.webp",
+    "public/daily/2026-07-19-og-image.webp",
+    "public/daily/2026-07-18-og-image.webp",
+    "public/daily/2026-07-17-og-image.webp",
+    "public/daily/2026-07-16-og-image.webp",
+    "public/daily/2026-07-15-og-image.webp",
+    "public/daily/2026-07-14-og-image.webp",
+    "public/daily/2026-07-13-og-image.webp",
+    "public/daily/2026-07-12-og-image.webp",
+    "public/postscript-5ad8a507.js",
+    "public/prescript-5ee2497e.js",
+    "public/index-655985f0.css",
+    "public/static/scripts/script-15-a5d77c7f.js",
+    "public/static/scripts/script-14-a2f22c29.js",
+    "public/static/scripts/script-13-5f71ef20.js",
+    "public/static/scripts/script-12-296b30c3.js",
+    "public/static/scripts/script-11-c9e900a7.js",
+    "public/static/scripts/script-10-632b2822.js",
+    "public/static/scripts/script-9-5ef560a8.js",
     "content/Daily/2026-07-04.md",
-    "content/Daily/2026-07-03.md",
-    "content/Daily/2026-07-02.md",
-<<<<<<< Updated upstream
-=======
-    "content/assets/Pasted image 20260710181311.png",
-    "content/assets/Pasted image 20260710181111.png",
-    "content/assets/Pasted image 20260710180310.png",
-    "content/assets/Pasted image 20260710180231.png",
-    "content/assets/Pasted image 20260710180008.png",
-    "content/assets/Pasted image 20260710175917.png",
-    "content/Daily/index.md",
-    "content/Notes/CVQKD最近文章调研总结.md",
-    "content/assets/Pasted image 20260706235041.png",
-    "content/assets/Pasted image 20260706154607.png",
-    "content/assets/Pasted image 20260706145547.png",
-    "content/assets/Pasted image 20260706144914.png",
->>>>>>> Stashed changes
-    "content/About.md",
-    "content/index.md",
-    "content/Notes/index.md",
-    "Untitled",
-    "content/Notes/商用TIA（BPD）调研.md",
-    "Daily/2026-07-02.md",
-    "Welcome.md",
-    "Templates",
-    "attachments",
-    "Notes",
-    "Daily"
+    "content/Daily/2026-07-16.md",
+    "content/Daily/Todo List.md",
+    "content/Daily/2026-07-19.md",
+    "content/Daily/2026-07-08.md",
+    "content/Daily/2026-07-10.md",
+    "content/Daily/2026-07-12.md",
+    "content/Daily/2026-07-13.md",
+    "content/Daily/2026-07-14.md",
+    "content/Daily/2026-07-15.md"
   ]
 }

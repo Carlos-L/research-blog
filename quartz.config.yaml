@@ -75,6 +75,18 @@ plugins:
     layout:
       position: afterBody
       priority: 100
+  - source: ./plugins/daily-todo
+    enabled: true
+    order: 6
+    layout:
+      position: afterBody
+      priority: 0
+  - source: ./plugins/daily-nav
+    enabled: true
+    order: 7
+    layout:
+      position: afterBody
+      priority: 1
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:

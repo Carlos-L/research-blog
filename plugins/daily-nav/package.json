@@ -1,0 +1,27 @@
+{
+  "name": "@carlos-research/daily-nav",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "daily-nav",
+    "displayName": "Daily Navigation",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 6,
+    "defaultEnabled": true,
+    "components": {
+      "DailyNav": {
+        "displayName": "Daily Navigation",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 1
+      }
+    }
+  }
+}

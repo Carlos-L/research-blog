@@ -1,6 +1,6 @@
 const styles = `
-.markdown-preview-view img:not(.lightbox-image){cursor:zoom-in}
-.markdown-preview-view a img{cursor:pointer}
+.markdown-preview-view img:not(.lightbox-image),article img:not(.lightbox-image){cursor:zoom-in}
+.markdown-preview-view a img,article a img{cursor:zoom-in}
 .image-lightbox{position:fixed;inset:0;z-index:10000;display:none;place-items:center;padding:clamp(1rem,4vw,3rem);background:rgba(5,10,20,.9);backdrop-filter:blur(8px)}
 .image-lightbox[data-open="true"]{display:grid}
 .image-lightbox-figure{display:grid;place-items:center;gap:.8rem;max-width:100%;max-height:100%;margin:0}
@@ -15,68 +15,100 @@ body.lightbox-open{overflow:hidden}
 
 const script = `
 (() => {
-  if (window.__imageLightboxBound) return
-  window.__imageLightboxBound = true
+  const ensureOverlay = () => {
+    let overlay = document.querySelector(".image-lightbox")
+    if (!overlay) {
+      overlay = document.createElement("div")
+      overlay.className = "image-lightbox"
+      overlay.dataset.persist = ""
+      overlay.setAttribute("role", "dialog")
+      overlay.setAttribute("aria-modal", "true")
+      overlay.setAttribute("aria-label", "Image preview")
+      overlay.innerHTML = '<button class="image-lightbox-close" type="button" aria-label="Close image preview">x</button><figure class="image-lightbox-figure"><img class="image-lightbox-image" alt=""><figcaption class="image-lightbox-caption"></figcaption></figure><p class="image-lightbox-hint">Mouse wheel zoom / Esc close</p>'
+      document.body.appendChild(overlay)
+    }
+    return overlay
+  }
 
-  const overlay = document.createElement("div")
-  overlay.className = "image-lightbox"
-  overlay.dataset.persist = ""
-  overlay.setAttribute("role", "dialog")
-  overlay.setAttribute("aria-modal", "true")
-  overlay.setAttribute("aria-label", "Image preview")
-  overlay.innerHTML = '<button class="image-lightbox-close" type="button" aria-label="Close image preview">×</button><figure class="image-lightbox-figure"><img class="image-lightbox-image" alt=""><figcaption class="image-lightbox-caption"></figcaption></figure><p class="image-lightbox-hint">滚轮缩放 · Esc 关闭</p>'
-  document.body.appendChild(overlay)
+  window.__imageLightboxController?.abort?.()
+  window.__imageLightboxController = new AbortController()
+  const signal = window.__imageLightboxController.signal
+  ensureOverlay()
 
-  const preview = overlay.querySelector(".image-lightbox-image")
-  const caption = overlay.querySelector(".image-lightbox-caption")
-  const closeButton = overlay.querySelector(".image-lightbox-close")
+  const preview = () => ensureOverlay().querySelector(".image-lightbox-image")
+  const caption = () => ensureOverlay().querySelector(".image-lightbox-caption")
+  const closeButton = () => ensureOverlay().querySelector(".image-lightbox-close")
   let previousFocus = null
   let scale = 1
 
   const setScale = (nextScale) => {
+    const image = preview()
     scale = Math.min(5, Math.max(0.5, nextScale))
-    preview.style.transform = "scale(" + scale + ")"
-    overlay.dataset.zoomed = scale > 1 ? "true" : "false"
+    image.style.transform = "scale(" + scale + ")"
+    ensureOverlay().dataset.zoomed = scale > 1 ? "true" : "false"
   }
 
-  const close = () => {
+  const close = (event) => {
+    event?.preventDefault?.()
+    event?.stopPropagation?.()
+    event?.stopImmediatePropagation?.()
+    const overlay = ensureOverlay()
     if (overlay.dataset.open !== "true") return
     delete overlay.dataset.open
     document.body.classList.remove("lightbox-open")
-    preview.removeAttribute("src")
+    preview().removeAttribute("src")
     setScale(1)
     previousFocus?.focus?.()
   }
 
-  document.addEventListener("click", (event) => {
-    const image = event.target.closest?.(".markdown-preview-view img")
-    if (!image || image.closest("a")) return
+  const open = (image, event) => {
     event.preventDefault()
+    event.stopPropagation()
+    event.stopImmediatePropagation?.()
+    const overlay = ensureOverlay()
+    const previewImage = preview()
+    const captionText = caption()
     previousFocus = document.activeElement
-    preview.src = image.currentSrc || image.src
-    preview.alt = image.alt || ""
-    caption.textContent = image.alt || ""
-    caption.hidden = !image.alt
+    previewImage.src = image.currentSrc || image.src
+    previewImage.alt = image.alt || ""
+    captionText.textContent = image.alt || ""
+    captionText.hidden = !image.alt
     setScale(1)
     overlay.dataset.open = "true"
     document.body.classList.add("lightbox-open")
-    closeButton.focus()
-  })
+    closeButton().focus()
+  }
 
-  overlay.addEventListener("click", (event) => {
-    if (event.target === overlay || event.target === closeButton) close()
-  })
-  overlay.addEventListener("wheel", (event) => {
-    if (overlay.dataset.open !== "true") return
+  document.addEventListener("click", (event) => {
+    const overlay = ensureOverlay()
+    if (overlay.dataset.open === "true") {
+      if (event.target === overlay || event.target.closest?.(".image-lightbox-close")) {
+        close(event)
+        return
+      }
+    }
+
+    const image = event.target.closest?.(".markdown-preview-view img, article img")
+    if (!image || image.classList.contains("lightbox-image")) return
+    open(image, event)
+  }, { capture: true, signal })
+
+  document.addEventListener("wheel", (event) => {
+    if (ensureOverlay().dataset.open !== "true") return
     event.preventDefault()
+    event.stopPropagation()
     const factor = Math.exp(-event.deltaY * 0.0015)
     setScale(scale * factor)
-  }, { passive: false })
-  preview.addEventListener("dblclick", () => setScale(1))
+  }, { capture: true, passive: false, signal })
+
+  ensureOverlay().addEventListener("click", (event) => {
+    if (event.target === ensureOverlay() || event.target.closest?.(".image-lightbox-close")) close(event)
+  }, { signal })
+  preview().addEventListener("dblclick", () => setScale(1), { signal })
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") close()
-  })
-  document.addEventListener("prenav", close)
+  }, { signal })
+  document.addEventListener("prenav", close, { signal })
 })()
 `
 
