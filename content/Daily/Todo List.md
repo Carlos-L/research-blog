@@ -3,7 +3,7 @@ title: Todo List
 unlisted: true
 ---
 
-- [ ] 测量pd节电容
+- [x] 测量pd节电容
 - [ ] 显微镜商家查找
 - [ ] 更改PCB设计
 - [ ] 调研OPA与无人机通信网络

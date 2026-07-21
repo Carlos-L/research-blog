@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/Todo List.md",
+                "file": "content/Daily/2026-07-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Todo List"
+              "title": "2026-07-21"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Daily/Todo List.md",
+                "file": "content/Daily/2026-07-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Todo List"
+              "title": "Backlinks for 2026-07-21"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Daily/Todo List.md",
+                "file": "content/Daily/2026-07-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Todo List"
+              "title": "Outgoing links from 2026-07-21"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Daily/Todo List.md",
+                "file": "content/Daily/2026-07-21.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Todo List"
+              "title": "Outline of 2026-07-21"
             }
           }
         ]
@@ -185,17 +185,22 @@
   },
   "active": "59f31ec597414b38",
   "lastOpenFiles": [
+    "public/assets/pasted-image-20260721184226.png",
+    "content/assets/Pasted image 20260721184226.png",
+    "content/Daily/Todo List.md",
+    "content/Daily/2026-07-21.md",
+    "public/daily/2026-07-21-og-image.webp",
+    "public/daily/2026-07-21.html",
+    "public/assets/pasted-image-20260721161545.png",
+    "content/assets/Pasted image 20260721161545.png",
+    "public/daily/206-07-21-og-image.webp",
+    "public/daily/206-07-21.html",
+    "public/daily/untitled-og-image.webp",
+    "public/daily/untitled.html",
     "public/index-og-image.webp",
     "public/daily/index-og-image.webp",
     "public/daily/todo-list-og-image.webp",
     "public/daily/2026-07-19-og-image.webp",
-    "public/daily/2026-07-18-og-image.webp",
-    "public/daily/2026-07-17-og-image.webp",
-    "public/daily/2026-07-16-og-image.webp",
-    "public/daily/2026-07-15-og-image.webp",
-    "public/daily/2026-07-14-og-image.webp",
-    "public/daily/2026-07-13-og-image.webp",
-    "public/daily/2026-07-12-og-image.webp",
     "public/postscript-5ad8a507.js",
     "public/prescript-5ee2497e.js",
     "public/index-655985f0.css",
@@ -203,12 +208,8 @@
     "public/static/scripts/script-14-a2f22c29.js",
     "public/static/scripts/script-13-5f71ef20.js",
     "public/static/scripts/script-12-296b30c3.js",
-    "public/static/scripts/script-11-c9e900a7.js",
-    "public/static/scripts/script-10-632b2822.js",
-    "public/static/scripts/script-9-5ef560a8.js",
     "content/Daily/2026-07-04.md",
     "content/Daily/2026-07-16.md",
-    "content/Daily/Todo List.md",
     "content/Daily/2026-07-19.md",
     "content/Daily/2026-07-08.md",
     "content/Daily/2026-07-10.md",
