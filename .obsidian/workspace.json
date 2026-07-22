@@ -1,41 +1,56 @@
 {
   "main": {
-    "id": "583353ab146ed414",
+    "id": "b572135467336c7a",
     "type": "split",
     "children": [
       {
-        "id": "568f32adc593213e",
+        "id": "093dc12e605c05ea",
         "type": "tabs",
         "children": [
           {
-            "id": "59f31ec597414b38",
+            "id": "84568a9d5aa07a25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/2026-07-21.md",
+                "file": "content/Daily/2026-07-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-21"
+              "title": "2026-07-14"
+            }
+          },
+          {
+            "id": "730239dded80e2f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Notes/OPA调研.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OPA调研"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7f4b42a310cdaa27",
+    "id": "fbabdd7ddb1caa73",
     "type": "split",
     "children": [
       {
-        "id": "466f3eb4beb0cc82",
+        "id": "9d5aaae7164ba82d",
         "type": "tabs",
         "children": [
           {
-            "id": "d7570beae13ed621",
+            "id": "fc7a79da0321343b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +63,7 @@
             }
           },
           {
-            "id": "8a35c7686b0a9f4f",
+            "id": "cd75744cd4168cf7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +80,7 @@
             }
           },
           {
-            "id": "e7a624d07b1d6046",
+            "id": "623fbbb8a7c0dcbb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +96,20 @@
     "width": 300
   },
   "right": {
-    "id": "cfdb9b5c41cbcefc",
+    "id": "7e23945d866ef50f",
     "type": "split",
     "children": [
       {
-        "id": "f37ff6b75b45d79c",
+        "id": "923b6d9a5aa00c65",
         "type": "tabs",
         "children": [
           {
-            "id": "445c6d8aff6ac971",
+            "id": "a7eed05fe49d9a45",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Daily/2026-07-21.md",
+                "file": "Daily/2026-07-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-07-21"
+              "title": "Backlinks for 2026-07-02"
             }
           },
           {
-            "id": "d93f826a712fa62c",
+            "id": "d0a8dbd92be3fd67",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Daily/2026-07-21.md",
+                "file": "Daily/2026-07-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-07-21"
+              "title": "Outgoing links from 2026-07-02"
             }
           },
           {
-            "id": "e66df4dc73186e88",
+            "id": "7ff85ee63444f42f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +152,7 @@
             }
           },
           {
-            "id": "8d31cbbaf3c471a4",
+            "id": "962db895d311d7d4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,18 +166,18 @@
             }
           },
           {
-            "id": "cef0ce6af7949f11",
+            "id": "452d4ea777027fe1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Daily/2026-07-21.md",
+                "file": "Daily/2026-07-02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-07-21"
+              "title": "Outline of 2026-07-02"
             }
           }
         ]
@@ -183,39 +198,47 @@
       "bases:Create new base": false
     }
   },
-  "active": "59f31ec597414b38",
+  "active": "730239dded80e2f5",
   "lastOpenFiles": [
-    "public/assets/pasted-image-20260721184226.png",
-    "content/assets/Pasted image 20260721184226.png",
-    "content/Daily/Todo List.md",
-    "content/Daily/2026-07-21.md",
-    "public/daily/2026-07-21-og-image.webp",
-    "public/daily/2026-07-21.html",
-    "public/assets/pasted-image-20260721161545.png",
-    "content/assets/Pasted image 20260721161545.png",
-    "public/daily/206-07-21-og-image.webp",
-    "public/daily/206-07-21.html",
-    "public/daily/untitled-og-image.webp",
-    "public/daily/untitled.html",
-    "public/index-og-image.webp",
-    "public/daily/index-og-image.webp",
-    "public/daily/todo-list-og-image.webp",
-    "public/daily/2026-07-19-og-image.webp",
-    "public/postscript-5ad8a507.js",
-    "public/prescript-5ee2497e.js",
-    "public/index-655985f0.css",
-    "public/static/scripts/script-15-a5d77c7f.js",
-    "public/static/scripts/script-14-a2f22c29.js",
-    "public/static/scripts/script-13-5f71ef20.js",
-    "public/static/scripts/script-12-296b30c3.js",
-    "content/Daily/2026-07-04.md",
-    "content/Daily/2026-07-16.md",
+    "content/Daily/2026-07-20.md",
+    "content/Notes/OPA调研.md",
+    "content/assets/Pasted image 20260720181505.png",
+    "content/assets/Pasted image 20260720181431.png",
+    "content/assets/Pasted image 20260720174406.png",
     "content/Daily/2026-07-19.md",
-    "content/Daily/2026-07-08.md",
-    "content/Daily/2026-07-10.md",
-    "content/Daily/2026-07-12.md",
-    "content/Daily/2026-07-13.md",
     "content/Daily/2026-07-14.md",
-    "content/Daily/2026-07-15.md"
+    "content/Daily/2026-07-15.md",
+    "content/Daily/2026-07-16.md",
+    "content/Daily/2026-07-17.md",
+    "content/Daily/2026-07-18.md",
+    "content/assets/Pasted image 20260719163834.png",
+    "content/assets/Pasted image 20260719163816.png",
+    "content/assets/Pasted image 20260719163756.png",
+    "content/assets/Pasted image 20260719163559.png",
+    "content/assets/Pasted image 20260719154837.png",
+    "content/assets/Pasted image 20260719154808.png",
+    "content/assets/Pasted image 20260719154738.png",
+    "content/Daily/2026-07-13.md",
+    "content/Daily/2026-07-12.md",
+    "content/Daily/2026-07-10.md",
+    "content/Daily/2026-07-08.md",
+    "content/Daily/index.md",
+    "2026-07-16.md",
+    "content/Notes/CVQKD最近文章调研总结.md",
+    "content/Daily/2026-07-07.md",
+    "content/Daily/2026-07-06.md",
+    "content/Daily/2026-07-05.md",
+    "content/Daily/2026-07-04.md",
+    "content/Daily/2026-07-03.md",
+    "content/Daily/2026-07-02.md",
+    "content/About.md",
+    "content/index.md",
+    "content/Notes/index.md",
+    "Untitled",
+    "content/Notes/商用TIA（BPD）调研.md",
+    "Templates",
+    "attachments",
+    "Notes",
+    "Daily"
   ]
 }
