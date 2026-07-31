@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/2026-07-28.md",
+                "file": "content/Daily/2026-07-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-28"
+              "title": "2026-07-15"
             }
           }
         ]
@@ -185,29 +185,32 @@
   },
   "active": "59f31ec597414b38",
   "lastOpenFiles": [
-    "content/Daily/index.md",
-    "content/Daily/2026-07-27.md",
-    "content/Daily/2026-07-26.md",
+    "content/assets/Pasted image 20260801005402.png",
+    "content/Daily/2026-07-31.md",
+    "content/assets/Pasted image 20260801005316.png",
+    "content/Daily/2026-07-15.md",
+    "content/assets/Pasted image 20260801004158.png",
+    "content/assets/Pasted image 20260801004124.png",
+    "content/assets/Pasted image 20260801003712.png",
+    "content/assets/Pasted image 20260801003625.png",
     "content/Daily/2026-07-28.md",
+    "content/Daily/2026-07-27.md",
+    "content/assets/Pasted image 20260801002250.png",
+    "content/assets/Pasted image 20260801002119.png",
+    "content/assets/Pasted image 20260801001529.png",
+    "content/assets/default.jpg",
+    "content/Daily/2026-07-26.md",
+    "content/Daily/index.md",
     "content/Daily/2026-07-25.md",
     "content/Notes/集成Heterodyne detection文章阅读.md",
     "content/assets/Pasted image 20260731012826.png",
-    "content/assets/Pasted image 20260731012528.png",
-    "content/assets/Pasted image 20260731012409.png",
     "content/Notes/OPA调研.md",
     "content/Notes/商用TIA（BPD）调研.md",
     "content/Notes/index.md",
     "content/Notes/CVQKD最近文章调研总结.md",
     "content/Daily/2026-07-23.md",
     "content/Daily/2026-07-24.md",
-    "content/assets/Pasted image 20260726012839.png",
-    "content/assets/Pasted image 20260726012520.png",
-    "content/assets/Pasted image 20260726012357.png",
-    "content/assets/Pasted image 20260725231349.png",
     "content/About.md",
-    "content/assets/Pasted image 20260725162433.png",
-    "content/assets/Pasted image 20260725162408.png",
-    "content/assets/Pasted image 20260725162401.png",
     "content/Daily/2026-07-21.md",
     "content/Daily/Todo List.md",
     "Untitled.md",
@@ -227,8 +230,6 @@
     "content/Daily/2026-07-19.md",
     "content/Daily/2026-07-08.md",
     "content/Daily/2026-07-10.md",
-    "content/Daily/2026-07-12.md",
-    "content/Daily/2026-07-13.md",
-    "content/Daily/2026-07-14.md"
+    "content/Daily/2026-07-12.md"
   ]
 }
