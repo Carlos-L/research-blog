@@ -15,6 +15,10 @@ unlisted: true
 - [x] CVQKD采集数据
 - [ ] 组网架构
 - [x] 接收端重测结电容与暗电流
-- [ ] CVQKD数据处理
+- [x] CVQKD数据处理
 - [x] OAM文献阅读
+- [x] 光梳调研梳理
+- [ ] passive CVQKD实验设计
+- [ ] CVQKD实验方案设计
+- [ ] 业界发射端论文快读
 
