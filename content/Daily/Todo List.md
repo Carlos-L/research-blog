@@ -6,10 +6,10 @@ unlisted: true
 - [x] 测量pd节电容
 - [ ] 显微镜商家查找
 - [x] 更改PCB设计
-- [ ] 调研OPA与无人机通信网络
-- [ ] 调研CVQKD网络架构
-- [ ] 调研CV passive QKD协议
-- [ ] 调研（CV）码率计算与半正定规划在码率计算中的应用
+- [ ] 调研OPA与无人机通信网络！
+- [ ] 调研CVQKD网络架构！
+- [x] 调研CV passive QKD协议！
+- [ ] 调研（CV）码率计算与半正定规划在码率计算中的应用！
 - [x] 联系石泾波老师组里询问8月份流片能否带一个TIA
 - [x] 联系石泾波老师组里询问之前PCB板的事情
 - [x] CVQKD采集数据
@@ -18,7 +18,8 @@ unlisted: true
 - [x] CVQKD数据处理
 - [x] OAM文献阅读
 - [x] 光梳调研梳理
-- [ ] passive CVQKD实验设计
-- [ ] CVQKD实验方案设计
-- [ ] 业界发射端论文快读
+- [x] passive CVQKD实验设计
+- [ ] CVQKD实验方案设计！
+- [x] 业界发射端论文快读
+- [ ] OAM通信阅读
 
