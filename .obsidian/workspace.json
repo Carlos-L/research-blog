@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/2026-08-21.md",
+                "file": "content/Daily/Todo List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-21"
+              "title": "Todo List"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/2026-08-24.md",
+                "file": "content/Daily/2026-08-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-24"
+              "title": "2026-08-29"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "2026-07-27"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,44 +227,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "3fe322546500fac4",
+  "active": "0131503965c0c447",
   "lastOpenFiles": [
-    "content/assets/Pasted image 20260824145022.png",
-    "content/Daily/2026-08-22.md",
-    "content/Daily/2026-08-24.md",
-    "content/Daily/Todo List.md",
-    "content/Daily/2026-08-21.md",
-    "content/Notes/Passive CVQKD文献阅读.md",
-    "content/assets/Pasted image 20260821212823.png",
-    "content/assets/Pasted image 20260821212755.png",
-    "content/assets/Pasted image 20260821211912.png",
-    "content/assets/Pasted image 20260821210702.png",
-    "content/assets/Pasted image 20260821210641.png",
-    "content/assets/e759dfa3ee03b37f8bfe0f182dbe558f.jpg",
-    "content/assets/69106a2e90f5a5d6023b3f6e21f51a61.jpg",
-    "content/assets/Pasted image 20260821210351.png",
-    "content/assets/Pasted image 20260821205806.png",
-    "content/assets/Pasted image 20260821205802.png",
-    "content/Daily/2026-08-20.md",
-    "content/Daily/2026-08-19.md",
-    "content/Notes/OPA调研.md",
-    "content/Notes/集成Heterodyne detection文章阅读.md",
-    "content/Notes/光频梳发展梳理.md",
-    "content/Daily/2026-08-15.md",
-    "content/Daily/index.md",
-    "content/Notes/国盾chip-based transmitter文献阅读.md",
-    "content/Daily/2026-08-18.md",
-    "content/Daily/2026-08-17.md",
-    "content/Notes/高维OAM经典通信文献阅读.md",
-    "content/Notes/CVQKD最近文章调研总结.md",
-    "content/Daily/2026-08-16.md",
-    "content/Daily/2026-07-07.md",
-    "content/Daily/2026-07-06.md",
-    "content/Daily/2026-07-05.md",
-    "content/Daily/2026-07-04.md",
-    "content/Daily/2026-07-21.md",
-    "content/Daily/2026-08-12.md",
+    "content/Daily/2026-07-14.md",
+    "content/Daily/2026-07-13.md",
+    "content/Daily/2026-07-10.md",
+    "content/Daily/2026-07-25.md",
     "content/Daily/2026-07-24.md",
+    "content/Daily/2026-07-21.md",
+    "content/Daily/2026-07-23.md",
+    "content/Daily/2026-07-26.md",
+    "content/Daily/2026-07-27.md",
+    "content/Daily/2026-07-28.md",
+    "content/Daily/2026-07-31.md",
+    "content/Daily/2026-08-12.md",
+    "content/Daily/2026-08-13.md",
+    "content/Daily/2026-08-14.md",
+    "content/Daily/2026-08-15.md",
+    "content/Daily/2026-08-16.md",
+    "content/Daily/2026-08-17.md",
+    "content/Daily/2026-08-18.md",
+    "content/Daily/2026-08-19.md",
+    "content/Daily/2026-08-21.md",
+    "content/Daily/2026-08-20.md",
+    "content/Daily/2026-08-28.md",
+    "content/Daily/2026-08-30.md",
+    "content/Daily/2026-08-29.md",
+    "content/Daily/2026-08-26.md",
+    "content/Daily/2026-08-25.md",
+    "content/assets/Pasted image 20260830214846.png",
+    "content/assets/Pasted image 20260830214810.png",
+    "content/assets/Pasted image 20260830214745.png",
+    "content/assets/Pasted image 20260830214734.png",
+    "content/assets/Pasted image 20260830214717.png",
+    "content/assets/Pasted image 20260830164516.png",
+    "content/assets/c2edf0bb247e638454f715f13c3acbed.jpg",
+    "content/assets/Pasted image 20260829171048.png",
+    "content/assets/Pasted image 20260829170604.png",
+    "content/assets/Pasted image 20260829165143.png",
     "content/assets/9073f006951b4e1f5a66bc6042e2ea30.jpg.~tmp",
     "public/notes/opa调研.html",
     "public/daily/2026-07-20.html",
