@@ -13,54 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/2026-09-03.md",
+                "file": "content/Daily/2026-09-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-03"
-            }
-          },
-          {
-            "id": "3fe322546500fac4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Daily/2026-08-29.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-08-29"
-            }
-          },
-          {
-            "id": "0117ffd96ef5e62b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Notes/Passive CVQKD文献阅读.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Passive CVQKD文献阅读"
-            }
-          },
-          {
-            "id": "a3535f7a5a40ece1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Daily/2026-07-27.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-27"
+              "title": "2026-09-21"
             }
           }
         ]
@@ -138,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Daily/2026-07-21.md",
+                "file": "content/Daily/2026-9-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-07-21"
+              "title": "Backlinks"
             }
           },
           {
@@ -229,42 +187,42 @@
   },
   "active": "0131503965c0c447",
   "lastOpenFiles": [
-    "content/Daily/2026-09-02.md",
-    "content/Daily/2026-09-01.md",
-    "content/Daily/2026-08-31.md",
-    "content/Daily/2026-09-03.md",
-    "content/Daily/index.md",
-    "content/Notes/Passive CVQKD文献阅读.md",
+    "content/assets/3f7adaedd8fc851315358ea8cf5e0391.jpg",
+    "content/assets/d0d5e16eb938df5528739fed94f5e5f2 1.jpg",
+    "content/assets/d0d5e16eb938df5528739fed94f5e5f2.jpg",
+    "content/assets/微信图片_20260922235546_135_22.jpg",
+    "content/assets/微信图片_20260922235538_134_22.jpg",
+    "content/assets/微信图片_20260922235528_133_22.jpg",
+    "content/assets/83928ffb1abac501ec4629479ac66ebe.jpg",
+    "content/Daily/2026-09-19.md",
+    "content/Daily/2026-09-20.md",
+    "content/Daily/2026-09-21.md",
+    "content/Daily/2026-09-22.md",
+    "2026-09-09.md",
+    "content/Daily/2026-09-18.md",
+    "content/assets/Pasted image 20260919105556.png",
+    "content/assets/Pasted image 20260919105536.png",
+    "content/assets/4a12ce1ef4b798b953b2a0aa37a2a5bb.png",
+    "content/assets/9d86e216bf483c1e3978319a69747904.png",
+    "content/Daily/2026-09-17.md",
+    "content/Daily/2026-09-16.md",
+    "content/Daily/2026-09-15.md",
+    "content/Daily/2026-09-14.md",
+    "content/Daily/2026-09-12.md",
+    "content/Daily/2026-09-11.md",
+    "content/Daily/Todo List.md",
+    "content/Daily/2026-09-10.md",
+    "content/Daily/2026-09-09.md",
+    "content/Daily/2026-09-08.md",
     "content/Notes/index.md",
-    "content/Notes/CVQKD最近文章调研总结.md",
+    "content/Notes/连续变量量子密钥分发使用旋转不变量的Pilot-Free协议.md",
+    "content/Notes/rotation_invariant_gmcs_protocol_specification_cn - 副本 (2).md",
+    "content/Notes/adjacent_invariant_statistical_dependence_cn.md",
+    "content/Notes/adjacent_inner_outer_invariant_protocol_cn.md",
+    "content/Notes/O4_protocol_security_status_cn.md",
     "content/Notes/商用TIA（BPD）调研.md",
-    "content/Notes/集成Heterodyne detection文章阅读.md",
-    "content/Notes/光频梳发展梳理.md",
-    "content/Notes/高维OAM经典通信文献阅读.md",
-    "content/Daily/2026-08-24.md",
-    "content/Daily/2026-08-23.md",
-    "content/Daily/2026-08-30.md",
-    "content/Daily/2026-08-29.md",
-    "content/assets/Pasted image 20260902000645.png",
-    "content/Daily/2026-08-28.md",
-    "content/Daily/2026-08-26.md",
-    "content/Daily/2026-08-19.md",
-    "content/Daily/2026-08-17.md",
-    "content/Daily/2026-08-16.md",
-    "content/Daily/2026-08-15.md",
-    "content/Daily/2026-08-14.md",
-    "content/Daily/2026-08-13.md",
-    "content/Daily/2026-08-12.md",
-    "content/Daily/2026-07-31.md",
-    "content/assets/0153e9e43630cca19cc2ce80c5f2a616.jpg",
-    "content/assets/fe78dbd13576dad1276bcd945c18f37f.jpg",
-    "content/assets/Pasted image 20260830214846.png",
-    "content/assets/Pasted image 20260830214810.png",
-    "content/assets/Pasted image 20260830214745.png",
-    "content/assets/Pasted image 20260830214734.png",
-    "content/assets/Pasted image 20260830214717.png",
-    "content/assets/Pasted image 20260830164516.png",
-    "content/assets/c2edf0bb247e638454f715f13c3acbed.jpg",
+    "content/Daily/2026-09-01.md",
+    "content/Daily/2026-09-02.md",
     "content/assets/9073f006951b4e1f5a66bc6042e2ea30.jpg.~tmp",
     "public/notes/opa调研.html",
     "public/daily/2026-07-20.html",
