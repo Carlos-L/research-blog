@@ -172,9 +172,30 @@ plugins:
     enabled: true
     options:
       iterations: 600000
-      passwordField: password
+      passwordField: __restrictedAccessKey
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
+    order: 900
+  - source: ./plugins/restricted-search
+    enabled: true
+    options:
+      passwordEnv: QUARTZ_RESTRICTED_PASSWORD
+      iterations: 600000
+      outputPath: static/restrictedSearchIndex.json
+    order: 890
+  - source: ./plugins/restricted-access
+    enabled: true
+    options:
+      accessField: access
+      publicValue: public
+      passwordEnv: QUARTZ_RESTRICTED_PASSWORD
+      passwordField: __restrictedAccessKey
+      contactLabel: 2401110243@stu.pku.edu.cn
+      contactUrl: mailto:2401110243@stu.pku.edu.cn
+    order: 910
+    layout:
+      position: afterBody
+      priority: 101
   - source: github:quartz-community/stacked-pages
     enabled: false
     layout:

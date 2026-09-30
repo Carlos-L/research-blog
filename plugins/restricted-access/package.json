@@ -1,0 +1,35 @@
+{
+  "name": "@carlos-research/restricted-access",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "restricted-access",
+    "displayName": "Restricted Access",
+    "category": ["transformer", "component"],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": ["github:quartz-community/encrypted-pages"],
+    "defaultOrder": 910,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "accessField": "access",
+      "publicValue": "public",
+      "passwordEnv": "QUARTZ_RESTRICTED_PASSWORD",
+      "passwordField": "__restrictedAccessKey",
+      "contactLabel": "2401110243@stu.pku.edu.cn",
+      "contactUrl": "mailto:2401110243@stu.pku.edu.cn"
+    },
+    "components": {
+      "RestrictedAccess": {
+        "displayName": "Restricted Access UI",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 101
+      }
+    }
+  }
+}
