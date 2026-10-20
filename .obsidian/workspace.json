@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Daily/2026-10-08.md",
+                "file": "content/Daily/2026-10-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-08"
+              "title": "2026-10-11"
             }
           }
         ],
@@ -202,19 +202,24 @@
   },
   "active": "3ddc561970c64aba",
   "lastOpenFiles": [
+    "content/Daily/2026-10-10.md",
+    "content/Daily/2026-10-09.md",
+    "content/Daily/2026-10-11.md",
+    "content/assets/64067ebf30424320b8885915330ac1a3.jpg",
+    "content/assets/aca1ba8b8cd37a08da3b12c52998fb53.jpg",
+    "content/assets/079504cafcc26f157563f8c49e0f9d9b.jpg",
+    "content/assets/1d063cb45f02ddaf24c80a861c175321.jpg",
+    "content/assets/d2bd3136e2fed033ac0a581ac422523d.jpg",
+    "content/assets/a28d42145a60f46973c1a3728848f20e.jpg",
+    "content/Daily/2026-10-08.md",
     "content/assets/Pasted image 20261017233118.png",
     "content/assets/0c96814480827d9db4fce6ce0b97b40e.png",
     "content/Daily/2026-10-01.md",
     "content/Daily/2026-09-21.md",
     "content/assets/微信图片_20261001134724_186_22.jpg",
     "content/assets/微信图片_20261001134709_185_22.jpg",
-    "content/assets/41517dd4bc1c7ce59e6314c69d4108a2 1.jpg",
-    "content/assets/41517dd4bc1c7ce59e6314c69d4108a2.jpg",
-    "content/Daily/2026-10-08.md",
     "content/Daily/Todo List.md",
     "content/Daily/index.md",
-    "content/Daily/2026-10-09.md",
-    "content/Daily/2026-10-10.md",
     "content/Daily/2026-09-30.md",
     "content/Notes/文献粗读 - 自注入环设计 与 DV发射端无调制方案.md",
     "content/Daily/2026-09-29.md",
@@ -225,11 +230,6 @@
     "public/static/giscus/light.css",
     "public/static/giscus/dark.css",
     "public/static/giscus",
-    "public/tags/index-og-image.webp",
-    "public/index-og-image.webp",
-    "public/notes/高维oam经典通信文献阅读-og-image.webp",
-    "public/notes/集成heterodyne-detection文章阅读-og-image.webp",
-    "public/notes/连续变量量子密钥分发使用旋转不变量的pilot-free协议-og-image.webp",
     "public/assets",
     "public/static/contentIndex.json",
     "public/index.xml",
@@ -246,7 +246,6 @@
     "content/About.md",
     "content/Daily/2026-08-21.md",
     "2026-09-30.md",
-    "node_modules/stringify-entities/readme.md",
-    "content/Daily/2026-08-24.md"
+    "node_modules/stringify-entities/readme.md"
   ]
 }
